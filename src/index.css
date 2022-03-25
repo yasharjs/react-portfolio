@@ -21,3 +21,17 @@ body{
   font-family: Poppins, sans-serif;
   
 }
+
+.nav-links li:hover , header a:hover{
+  color:var(--champagne-pink);
+  cursor: pointer;
+}
+
+
+.header-section{
+  background-color: var(--antique-brass);
+}
+
+.nav-active{
+  color:var(--champagne-pink)
+}
