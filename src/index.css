@@ -35,3 +35,12 @@ body{
 .nav-active{
   color:var(--champagne-pink)
 }
+
+button{
+  border: 3px var(--champagne-pink) solid;
+}
+
+button:hover{
+
+  background-color: var(--champagne-pink)
+}
