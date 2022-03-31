@@ -13,7 +13,7 @@ export default function Header(props) {
     <div className="p-6 flex items-center space-x-4 header-section">
       <header className="flex-1 text-3xl md:text-6xl">
         <h2 className="font-extrabold">
-          <a href="/react-portfolio">Yashar</a>
+          <a href="/">Yashar</a>
         </h2>
       </header>
       <div className="flex-1">
