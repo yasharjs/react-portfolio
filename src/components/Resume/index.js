@@ -5,7 +5,7 @@ export default function Resume() {
     return (
         <div className="resume-container h-screen">
             <h2 className="text-4xl font-extrabold text-center">Resume</h2>
-            <p>Download my <a href="/" >resume</a></p>
+            <p className="text-2xl">Download my <a href="/" >resume</a></p>
             <ul className="front-end">
                 <h4 className="text-3xl mb-3">Front-end proficiencies:</h4>
                 <li>- HTML</li>

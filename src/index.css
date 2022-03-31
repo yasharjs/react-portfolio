@@ -44,3 +44,49 @@ button:hover{
 
   background-color: var(--champagne-pink)
 }
+.projDiv{
+  border:2px solid #4D5042;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: #FFE8D6;
+
+}
+.projImg{
+  border-radius: 12px;
+  border:2px solid #4D5042;
+
+}
+
+.linkBtn{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkBtn button{
+  width: 50%;
+  margin:0 0.5rem;
+  margin-top:0.8rem;
+  border:2px solid #4D5042;
+  border-radius: 12px;
+  padding: 0.3rem;
+  background-color: #DDBEA9;
+
+
+}
+
+.linkBtn button:hover{
+  background-color: #FFE8D6;
+}
+
+@media only screen and (min-width: 1280px){
+  .projDiv{
+    width:32%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+  .projDiv{
+    width:48%;
+  }
+}
