@@ -3,16 +3,17 @@ import React from "react";
 export default function Projects() {
   const projectList = [
     {
-      title: "Run Buddy",
-      gitLink: "https://github.com/yasharjs/run-buddy",
-      liveLink: "https://yasharjs.github.io/run-buddy/",
-      imgLink: "runbuddy.png",
-    },
-    {
       title: "Jibber Jabber",
       gitLink: "https://github.com/yasharjs/Jibber-Jabber",
       liveLink: "https://jibber-jabber-app.herokuapp.com/",
       imgLink: "JibberJabber.png",
+    },
+
+    {
+      title: "Run Buddy",
+      gitLink: "https://github.com/yasharjs/run-buddy",
+      liveLink: "https://yasharjs.github.io/run-buddy/",
+      imgLink: "runbuddy.png",
     },
     {
       title: "Tech Blog",

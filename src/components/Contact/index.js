@@ -47,8 +47,8 @@ export default function Contact() {
             type="text"
             name="name"
             defaultValue={name}
-            className="h-10"
-            onBlur={handleChange}
+            className="h-10 p-2"
+            onChange={handleChange}
           />
         </div>
 
@@ -58,8 +58,8 @@ export default function Contact() {
             type="email"
             name="email"
             defaultValue={email}
-            className="h-10"
-            onBlur={handleChange}
+            className="h-10 p-2"
+            onChange={handleChange}
           />
         </div>
 
@@ -69,8 +69,8 @@ export default function Contact() {
             name="message"
             rows="5"
             defaultValue={message}
-            className="h-28"
-            onBlur={handleChange}
+            className="h-28 p-2"
+            onChange={handleChange}
           />
         </div>
         {errorMessage && (

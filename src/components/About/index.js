@@ -6,8 +6,7 @@ export default function About() {
         <div className="h-screen flex flex-col items-center space-y-8  p-8 text-center ">
             <h1 className="text-4xl font-extrabold">Who am I?</h1>
             <span className="text-4xl"><FaDev></FaDev></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit aspernatur autem a vitae neque placeat accusamus aliquam ut est dolore voluptate, nam distinctio! Iste magni unde fugit similique doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia nobis saepe iste deleniti illo provident quam optio a earum excepturi mollitia similique soluta quod rem, natus, impedit perspiciatis ipsa!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta esse non neque labore est et earum enim possimus ipsum vero, molestias perspiciatis, porro rerum tenetur numquam iusto pariatur. A.</p>
+            <p>Motivated developer with a background in customer service and sales. Recently earned a certificate in Full Stack Development from University of Toronto School of Continuing Studies, proficient in MERN Stack development. Known as an articulate problem solver, introducing passion and curiosity to every project. Looking to bring my attention to detail and technical skills to a company to grow and become a valuable asset.</p>
         </div>
     )
 }
