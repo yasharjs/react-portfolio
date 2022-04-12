@@ -25,9 +25,9 @@ export default function Contact() {
         setErrorMessage("");
       }
     }
-    if (!errorMessage) {
+  
       setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
+    
   }
 
   function handleSubmit(e) {
@@ -35,6 +35,8 @@ export default function Contact() {
     if(!errorMessage){
         console.log("Submit Form",formState)
     }
+    setFormState({name: '', email: '',message: ''})
+    alert("Success!")
   }
 
   return (
@@ -46,7 +48,7 @@ export default function Contact() {
           <input
             type="text"
             name="name"
-            defaultValue={name}
+            value={name}
             className="h-10 p-2"
             onChange={handleChange}
           />
@@ -57,7 +59,7 @@ export default function Contact() {
           <input
             type="email"
             name="email"
-            defaultValue={email}
+            value={email}
             className="h-10 p-2"
             onChange={handleChange}
           />
@@ -68,7 +70,7 @@ export default function Contact() {
           <textarea
             name="message"
             rows="5"
-            defaultValue={message}
+            value={message}
             className="h-28 p-2"
             onChange={handleChange}
           />
